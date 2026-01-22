@@ -8,3 +8,8 @@
 body {
   width: 512px;
 }
+
+#app_header {
+  padding: 1rem;
+  border-bottom: 2px solid;
+}
