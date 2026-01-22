@@ -5,11 +5,27 @@
   box-sizing: border-box;
 }
 
-body {
+body
+{
   width: 512px;
 }
 
-#app_header {
+#app_header
+{
   padding: 1rem;
   border-bottom: 2px solid;
+}
+
+
+main
+{
+  padding: 1rem 2rem;
+}
+
+.card
+{
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid black;
+  min-height: 150px;
 }
