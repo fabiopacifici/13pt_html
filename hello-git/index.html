@@ -5,16 +5,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+  <!-- Option 1:
+  <style>
+    #site_header {
+      color: purple;
+    }
+  </style> -->
+
+  <!-- Option 2 -->
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <header id="site_header">
+    <!-- ⚠️ Option 3     
+    <h1 style="color: green">Una giornata al museo</h1>
+ -->
     <h1>Una giornata al museo</h1>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto accusamus atque iure explicabo corporis vel dolores in. Ut nostrum atque, hic voluptas quasi eligendi cum fuga esse laudantium repellendus ullam?
+    </p>
+
   </header>
   <!-- /#site_header -->
   <main id="site_main">
+
     <div class="posts">
-      <article>
+      <article class="blog_article">
         <header>
           <h2>1. Il dipinto che mi ha colpito di piu</h2>
         </header>
@@ -24,7 +42,7 @@
         </figure>
         <p>Qusto dipinto Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, illo?</p>
       </article>
-      <article>
+      <article class="blog_article">
         <header>
           <h2>2. Un'antica scultura</h2>
         </header>
@@ -36,7 +54,7 @@
       </article>
     </div>
     <!-- /.posts -->
-    <section>
+    <section class="learn">
       <h3>Le cose che ho imparato oggi:</h3>
       <ul>
         <li>Le statue romane venivano spesso dipinte a colori vivaci</li>
@@ -44,7 +62,17 @@
         <li>Le statue romane venivano spesso dipinte a colori vivaci</li>
       </ul>
     </section>
+    <!-- /.learn -->
 
+    <div class="text-green">
+      <p>Ciao Ciao</p>
+      <p>Ciao Ciao</p>
+    </div>
+
+    <section>
+      <p>Ciao Ciao</p>
+      <p>Ciao Ciao</p>
+    </section>
   </main>
   <!-- /#site_main -->
   <footer id="site_footer">

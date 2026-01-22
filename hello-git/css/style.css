@@ -1,0 +1,77 @@
+/*
+Reset per:
+- Azzerare tutti i margini
+- Azzerare tutti i padding
+- Impostare a tutti i tag il box-sizing di tipo border-box
+*/
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Resto del CSS... */
+
+#site_header
+{
+
+  font-size: 20px;
+  background-color: black;
+  color: gainsboro;
+  padding: 1rem 2rem;
+  /*  border: 1px solid rgb(129, 129, 129); */
+/*   border-top: 2px solid red;
+  border-right: 4px dashed cyan;
+  border-bottom: 4px dashed cyan;
+  border-left: 2px solid red; */
+  /*  min-width: 200px;
+  min-height: 80px; */
+  /*   width: 8rem; */
+/*   border-radius: 1rem; */
+border-bottom-left-radius: 2rem;
+border-bottom-right-radius: 2rem;
+}
+
+body
+{
+  background-color: lightcyan;
+  margin: 0;
+}
+main {
+  padding: 1rem;
+}
+/* 
+ */
+/* .posts
+{
+  background-color: red;
+}
+
+.learn {
+  background-color: rebeccapurple;
+}
+
+.blog_article {
+  background-color: black;
+  color: white;
+} */
+
+/* li {
+  color: red;
+}
+
+p {
+  color: red;
+}
+
+.text-green {
+  color: green;
+} */
+
+.blog_article{
+  width: 300px;
+  height: 410px;
+  background-color: red;
+}
