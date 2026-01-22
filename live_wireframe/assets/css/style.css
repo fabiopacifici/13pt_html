@@ -1,3 +1,8 @@
+/* google fonts option 2 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik+Storm&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+
 *
 {
   margin: 0;
@@ -8,12 +13,35 @@
 body
 {
   width: 512px;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  /*   background-image: url('../img/pic3.png');
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
+/* From the google fonts website 
+.rubik-storm-regular
+{
+  font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
 #app_header
 {
+  font-family: "Rubik Moonrocks", sans-serif;
   padding: 1rem;
-  border-bottom: 2px solid;
+  border-bottom: 2px solid rgb(63, 2, 124);
+  color: white;
+  background-color: rebeccapurple;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  text-shadow: 0 0 8px fuchsia;
+
 }
 
 
@@ -27,11 +55,55 @@ main
 {
   padding: 1rem;
   margin-bottom: 1rem;
-  border: 2px solid black;
+  border: 1px solid rgb(212, 212, 212);
   min-height: 150px;
+  box-shadow: 0px 0px 10px 3px #dcdcdc;
+  background-color: rgba(255, 255, 255, 0.486);
 }
 
-footer {
-  padding: 1rem;
-  border-top: 2px solid black;
+h2
+{
+  text-shadow: 0 0 2px fuchsia;
+  margin-bottom: 0.5rem;
 }
+
+p
+{
+  color: rgb(34, 34, 34);
+  line-height: 1.75rem;
+}
+
+span
+{
+  text-decoration: underline;
+}
+
+
+footer
+{
+  padding: 1rem;
+  border-top: 2px solid rgb(63, 2, 124);
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  background-color: rebeccapurple;
+  color: white;
+  text-align: center;
+}
+
+/* 
+#app_header
+{
+  font-family: "Rubik Moonrocks", sans-serif;
+  padding: 1rem;
+  border-bottom: 2px solid rgb(63, 2, 124);
+  color: white;
+  background-color: rebeccapurple;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  text-shadow: 0 0 8px fuchsia;
+
+}
+*/
