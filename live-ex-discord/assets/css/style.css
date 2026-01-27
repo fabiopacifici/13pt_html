@@ -4,3 +4,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root
+{
+  --dis-page-bg: #191d7b;
+  --dis-primary: #5865f2;
+  --dis-light: #ffffff;
+
+}
+
+body
+{
+  max-width: 512px;
+  margin: 0 auto;
+  background-color: var(--dis-page-bg);
+}
+
+img,
+video
+{
+  max-width: 100%;
+}
