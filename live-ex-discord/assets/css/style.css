@@ -24,10 +24,15 @@ body
   font-family: "DM Sans", sans-serif;
 }
 
-img,
+img
+{
+  max-width: 100%;
+}
 video
 {
   max-width: 100%;
+  border-radius: 1.5rem;
+  margin-top: 1rem;
 }
 
 /* Main */
@@ -75,4 +80,14 @@ h2
   background-color: var(--dis-primary);
   color:var(--dis-light);
 
+}
+
+.cards {
+  margin-top: 4rem;
+}
+.card {
+  color: var(--dis-light);
+  background-color: var(--dis-primary);
+  padding: 2rem 1.5rem;
+  border-radius: 2rem;
 }
