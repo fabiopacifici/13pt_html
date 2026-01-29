@@ -1,0 +1,147 @@
+/* #region Common rules */
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: sans-serif;
+  max-width: 512px;
+  margin: 0 auto;
+}
+
+:root
+{
+  --ollama-dark: black;
+  --ollama-lighter: white;
+}
+
+img
+{
+  max-width: 100%;
+}
+
+header
+{
+  position: relative;
+  padding: 1rem;
+}
+
+/* 
+#endregion Common rules
+*/
+
+/* #region Utilities */
+.btn
+{
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+
+.btn-dark
+{
+  background-color: var(--ollama-dark);
+  color: var(--ollama-lighter);
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.text-dark{
+  color: black;
+}
+/* #endregion Utilities */
+
+/* #region Header */
+.logo
+{
+  vertical-align: middle;
+}
+
+/* .mobile_menu_icon
+{
+  vertical-align: middle;
+  margin-left: 80%;
+} */
+
+.mobile_menu_icon
+{
+  position: absolute;
+  right: 1rem;
+  top: 1.5rem;
+  border-style: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+
+/* #endregion Header  */
+
+/* #region Main */
+
+
+.jumbotron
+{
+  text-align: center;
+  padding: 2rem;
+}
+
+.jumobotron_text
+{
+  margin: 1rem 0;
+}
+
+/* Selezione Avanzata del figlio diretto
+- standard child selector 
+- con nesting
+*/
+
+/* 
+.jumbotron
+{
+  text-align: center;
+  padding: 2rem;
+
+  &>p
+  {
+    margin: 1rem 0;
+  }
+}
+ */
+/* .jumbotron > p {
+  margin: 1rem 0;
+} */
+
+
+.tools {
+  padding: 2rem;
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+}
+.tool_category {
+  margin-top: 2rem;
+}
+.tool_btn {
+
+  padding: 1rem 2rem;
+
+ /*  margin-bottom: 1rem; */
+}
+
+.list-unstyled {
+  list-style: none;
+
+  li {
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+    border-radius: 0.75rem;
+  }
+}
+
+/* #endregion Main */
