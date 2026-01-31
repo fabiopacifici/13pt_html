@@ -1,0 +1,37 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px dashed red;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  max-width: 512px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.d-flex
+{
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+.box {
+  margin: 4px;
+  width: 120px;
+  height: 120px;
+}
+

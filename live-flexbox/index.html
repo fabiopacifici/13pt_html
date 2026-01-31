@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox intro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <a href="">lorem</a>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad iure veritatis, modi soluta quis doloremque laborum nobis deserunt voluptas veniam esse delectus vitae, quas numquam dignissimos explicabo recusandae a culpa?</p>
+  <!-- Flex container  1 -->
+  <div class="flex-container">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+  <!-- Flex container  2 -->
+  <!-- Only its first childs are flex items (box) -->
+  <div class="flex-container">
+    <div class="box">
+      <!-- Semplici div not flex items -->
+      <div>just a div</div>
+      <div>anotehr div</div>
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+  <!-- Flex container  3-->
+  <!-- Only its first childs are flex items (box) -->
+  <div class="flex-container">
+    <div class="box flex-container">
+      <!-- Semplici div not flex items -->
+      <div>flex-item</div>
+      <div>flex-item</div>
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+
+  <!-- Flex conntainer 4 dedicated utility flex class -->
+  <div class="d-flex">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+
+  <div class="d-flex">
+    <div class="box d-flex">
+      <div>flex-item</div>
+      <div>flex-item</div>
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+</body>
+
+</html>
