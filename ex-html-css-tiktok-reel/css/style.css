@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	font-family: 'TikTok Sans', sans-serif;
+}
+
+video {
+	height: 100%;
+	width: 100%;
+	display: block;
+	object-position: center;
+	object-fit: cover;
+}
+
+.reel-page {
+	height: 100vh; /* ti incuriosisce? */
+	max-width: 512px;
+	min-width: 400px;
+	position: relative;
+}
+
+.reel-header {
+	position: absolute;
+	align-items: center;
+	justify-content: space-between;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	/* Inserisci qui sotto 
+	le tue regole, se necessario. */
+}
+
+/* Footer */
+
+footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+
+	/* Inserisci qui sotto 
+	le tue regole, se necessario. */
+}
+
+/* Sidebar */
+.sidebar {
+	padding: 0 16px;
+	position: absolute;
+	right: 0;
+	top: 40%;
+
+	/* Inserisci qui sotto 
+	le tue regole, se necessario. */
+}
+
+/* ---------------------
+Regole per evidenziare i blocchi 
+da rimuovere una volta concluso
+--------------------- */
+.debug footer {
+	min-height: 100px;
+	border: 2px dashed #fff;
+}
+
+.debug .sidebar {
+	min-width: 80px;
+	min-height: 450px;
+	border: 2px dashed #ff0;
+}
+
+.debug .reel-header {
+	min-height: 50px;
+	border: 2px dashed #fff;
+}
+
+/* --------------------- */
