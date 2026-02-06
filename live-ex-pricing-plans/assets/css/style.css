@@ -1,0 +1,252 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root
+{
+  --plans-accent: #6500ff;
+  --plans-white: white;
+}
+
+body
+{
+  font-family: sans-serif;
+}
+
+button
+{
+  background-color: transparent;
+  border-style: none;
+}
+
+.btn
+{
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  font-weight: bold;
+}
+
+.btn-primary
+{
+  background-color: var(--plans-accent);
+  color: var(--plans-white);
+}
+
+.btn-light
+{
+  background-color: var(--plans-white);
+  color: var(--plans-accent);
+
+}
+
+/* Layout */
+.container
+{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.col
+{
+  flex-basis: calc(100% / 3 - (15px * 2) / 3);
+  min-width: 290px;
+  flex-grow: 1;
+  min-height: 400px;
+}
+
+/* Utilities */
+
+.accent
+{
+  background-color: var(--plans-accent);
+  color: var(--plans-white);
+}
+
+.text-muted
+{
+  color: gray;
+}
+
+.text-sm
+{
+  font-size: 12px;
+}
+
+.list-unstyled
+{
+  list-style: none;
+}
+
+.btn
+{}
+
+.card:not(.accent)
+{
+  background-color: white;
+}
+
+/* Main */
+#plans
+{
+  padding: 1rem;
+
+  header
+  {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .description
+    {
+      margin-bottom: 1rem;
+    }
+
+    .togglers
+    {
+      flex-grow: 1;
+      text-align: end;
+    }
+
+  }
+
+  .card
+  {
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.2);
+    background-color: whi;
+
+    .card-body
+    {
+      text-align: center;
+    }
+  }
+
+  .price
+  {
+    margin: 1rem 0;
+
+    >.amount
+    {
+
+      font-size: 3rem;
+      font-weight: bold;
+
+    }
+  }
+
+  .subscription
+  {
+    margin-bottom: 1rem;
+  }
+
+  .features
+  {
+    ul
+    {
+      margin-top: 1rem;
+      line-height: 2rem;
+      text-align: left;
+
+
+      li>i
+      {
+        font-size: 1.25rem;
+      }
+
+      li>span
+      {
+        font-size: 14px;
+      }
+    }
+  }
+
+}
+
+
+/* Mobile first */
+/* @media screen and (min-width: 400px)
+{
+  body
+  {
+    background-color: rgb(255, 149, 149);
+    font-size: 18px;
+  }
+
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+
+@media screen and (min-width: 600px)
+{
+  body
+  {
+    background-color: rgb(57, 255, 179);
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 900px)
+{
+  body
+  {
+    background-color: rgb(250, 115, 255);
+  }
+} */
+
+
+/* Desktop first */
+
+@media screen and (max-width: 900px)
+{
+  body
+  {
+    background-color: rgb(250, 115, 255);
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  body
+  {
+    background-color: rgb(57, 255, 179);
+  }
+
+  h1
+  {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 400px)
+{
+  body
+  {
+    background-color: rgb(255, 149, 149);
+    font-size: 18px;
+  }
+
+
+  h1
+  {
+    font-size: 2.5rem;
+  }
+}
